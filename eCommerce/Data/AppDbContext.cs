@@ -1,6 +1,9 @@
-﻿namespace eCommerce.Data
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace eCommerce.Data
 {
-    public class AppDbContext
+    public class AppDbContext:DbContext
     {
+
     }
 }
